@@ -10,4 +10,4 @@ def info(object, spacing=10, collapse=1):
                      for method in methodList]))
 
 if __name__ == "__main__":
-    print(info.__doc__)
+    print info.__doc__

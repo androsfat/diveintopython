@@ -7,6 +7,6 @@ Using Python 2.7.9
 ## For auto complete in shell
 
 ```python
-import rlcompteter, readline  
-readline.parse_and_bind('tab:complete')```  
-
+import rlcompleter, readline  
+readline.parse_and_bind('tab:complete')
+```
