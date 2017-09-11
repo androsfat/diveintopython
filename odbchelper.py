@@ -1,5 +1,5 @@
 def buildConnectionString (params):
-    """Build a connection sting from a dictionary of parameters.
+    """Build a connection string from a dictionary of parameters.
 
     Returns string."""
     return ";".join(["%s=%s" % (k, v) for k, v in params.items()])

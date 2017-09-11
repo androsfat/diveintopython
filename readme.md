@@ -6,7 +6,15 @@ Using Python 2.7.9
 
 ## For auto complete in shell
 
+
 ```python
 import rlcompleter, readline  
 readline.parse_and_bind('tab:complete')
+```
+
+For Debian  
+
+
+```bash
+echo "export PYTHONSTARTUP=~/.pythonrc" >> ~/.bashrc
 ```
